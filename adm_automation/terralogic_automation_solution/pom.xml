@@ -1,0 +1,236 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>terralogic1.0</groupId>
+	<artifactId>terralogic_application_framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<jre.level>1.8</jre.level>
+		<jdk.level>1.8</jdk.level>
+	</properties>
+
+	<build>
+		<plugins>
+			<!-- Compiler plug-in -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.level}</source>
+					<target>${jdk.level}</target>
+				</configuration>
+			</plugin>
+			<!-- Below plug-in is used to execute tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.19.1</version>
+				<configuration>
+					<!-- <systemPropertyVariables> -->
+					<!-- Environment value will be accepted from command line arguments -->
+					<!-- <environment>${env.USER}</environment> </systemPropertyVariables> -->
+					<suiteXmlFiles>
+						<!-- TestNG suite XML files -->
+						<!-- <suiteXmlFile>src\main\java\Demand\demand.xml</suiteXmlFile> -->
+						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> -->
+
+						<!-- Xml File name will be accepted from command line arguments also -->
+						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+						<!-- added by pooja -->
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-remote-driver</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-android-driver</artifactId>
+			<version>2.39.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>4.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>6.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.13</version>
+		</dependency>
+		<!-- added by pooja -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.8-beta4</version>
+		</dependency>
+		<!-- added by pooja -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<!-- added by pooja -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<!-- added by pooja -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-nop</artifactId>
+			<version>1.7.25</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- added by pooja -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.7.25</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.4.3</version>
+		</dependency>
+		<!-- added by pooja -->
+		<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.9.1</version>
+		</dependency>
+		<!-- added by pooja -->
+		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
+		<dependency>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>1.4.01</version>
+		</dependency>
+
+
+		<!-- this mysql dependecny uncommented by pooja because it's already present -->
+		<!-- <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> 
+			<version>5.1.6</version> </dependency> -->
+
+		<!-- added by uma -->
+		<!-- <dependency> <groupId>org.apache.poi</groupId> <artifactId>poi-ooxml</artifactId> 
+			<version>3.11</version> </dependency> -->
+		<!-- added by uma -->
+		<!-- added by anjali <dependency> <groupId>io.rest-assured</groupId> <artifactId>rest-assured</artifactId> 
+			<version>3.0.2</version> <scope>test</scope> </dependency> -->
+		<!-- added by anjali -->
+		<!-- dependency> <groupId>org.apache.poi</groupId> <artifactId>poi-ooxml</artifactId> 
+			<version>3.9</version> </dependency> -->
+		<!-- added by anjali -->
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<!-- <dependency> <groupId>javax.mail</groupId> <artifactId>mail</artifactId> 
+			<version>1.4</version> </dependency> -->
+		<!-- added by anjali -->
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.dynamicreports/dynamicreports-core -->
+		<!-- <dependency> <groupId>net.sourceforge.dynamicreports</groupId> <artifactId>dynamicreports-core</artifactId> 
+			<version>4.0.1</version> </dependency> -->
+		<!-- added by anjali -->
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpasyncclient -->
+		<!-- <dependency> <groupId>org.apache.httpcomponents</groupId> <artifactId>httpasyncclient</artifactId> 
+			<version>4.0.1</version> </dependency> -->
+		<!-- added by anjali -->
+		<!-- https://mvnrepository.com/artifact/javax.activation/activation -->
+		<!-- <dependency> <groupId>javax.activation</groupId> <artifactId>activation</artifactId> 
+			<version>1.1.1</version> </dependency> -->
+		<!-- <dependency> <groupId>ru.yandex.qatools.allure</groupId> <artifactId>allure-testng-adaptor</artifactId> 
+			<version>1.5.4</version> </dependency> -->
+		<!-- added by anjali -->
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-attachments -->
+		<!-- <dependency> <groupId>io.qameta.allure</groupId> <artifactId>allure-attachments</artifactId> 
+			<version>2.0-BETA18</version> </dependency> -->
+
+		<!-- added by anjali -->
+		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-gmail -->
+		<!-- <dependency> <groupId>com.google.apis</groupId> <artifactId>google-api-services-gmail</artifactId> 
+			<version>v1-rev53-1.21.0</version> </dependency> -->
+		<!-- this apache poi dependecny uncommented by pooja -->
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<!-- <dependency> <groupId>org.apache.poi</groupId> <artifactId>poi</artifactId> 
+			<version>3.9</version> </dependency> -->
+
+
+		<!-- this selenuim java dependecny uncommented by pooja beacause it's already 
+			present -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-java</artifactId> 
+			<version>3.12.0</version> </dependency> -->
+		<!-- this tstng dependecny uncommented by pooja beacause it's already present -->
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<!-- <dependency> <groupId>org.testng</groupId> <artifactId>testng</artifactId> 
+			<version>6.14.3</version> <scope>test</scope> </dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	</dependencies>
+</project>

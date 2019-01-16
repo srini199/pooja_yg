@@ -1,0 +1,22 @@
+2018-12-24 18:33:29,622 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: terralogic1.0:terralogic_application_framework:0.0.1-SNAPSHOT @ /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/pom.xml.
+2018-12-24 18:33:31,834 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:33:31,844 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/main/resources
+2018-12-24 18:33:31,848 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:33:31,849 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/test/resources
+2018-12-24 18:33:32,936 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: terralogic1.0:terralogic_application_framework:0.0.1-SNAPSHOT @ /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/pom.xml.
+2018-12-24 18:36:55,071 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:36:55,073 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/main/resources
+2018-12-24 18:36:55,075 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:36:55,076 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/test/resources
+2018-12-24 18:41:01,647 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:41:01,649 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/main/resources
+2018-12-24 18:41:01,651 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:41:01,652 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/test/resources
+2018-12-24 18:42:58,144 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:42:58,146 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/main/resources
+2018-12-24 18:42:58,147 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:42:58,148 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/test/resources
+2018-12-24 18:46:28,057 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:46:28,062 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/main/resources
+2018-12-24 18:46:28,064 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-24 18:46:28,065 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yg/Desktop/Anjali/adm_automation/terralogic_automation_solution/src/test/resources

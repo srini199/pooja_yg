@@ -1,0 +1,9 @@
+
+public class YGTestCases extends Mobile_automation_common_utils{
+    @Test
+    public void firstCase() {
+    	MobileElement el1 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup");
+    	el1.click();
+
+    }
+}
